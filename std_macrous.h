@@ -1,12 +1,5 @@
-/*
- * std_macrous.c
- *
- * Created: 10/14/2023 3:58:56 PM
- *  Author: DELL
- */ 
+#define REGISTER_SIZE            8
 
-
-#define REGISTER_SIZE 8
 #define SET_BIT(reg,bit)    reg|=(1<<bit)
 #define CLR_BIT(reg,bit)    reg&=(~(1<<bit))
 #define TOG_BIT(reg,bit)    reg^=(1<<bit)
